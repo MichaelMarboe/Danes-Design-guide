@@ -1,0 +1,131 @@
+@font-face {
+    font-family: TheWave;
+    src: url(/fonts/Wave-Regular.otf);
+}
+
+@font-face {
+    font-family: TheWave;
+    src: url(/fonts/Wave-Bold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: TheWaveThin;
+    src: url(/fonts/Wave-Thin.otf);
+}
+
+a{
+    font-size: inherit;
+}
+
+p{
+    margin:15px;    
+}
+
+hr{
+    height:2px;
+    margin-left:15px;
+    margin-right:15px;
+    background-color: black;
+    border:0px solid black;
+}
+
+h1{
+    background-color:#d71345;
+    padding:15px;
+    font-family: TheWave;
+    color:white;
+    font-size:21px;
+}
+
+h2{
+    background-color: black;
+    padding:10px;
+    color:white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:16px;
+    margin-bottom:0%;
+    padding:15px;
+}
+
+
+.content-holder{
+    display:inline-block;
+    max-width:31.5%;
+    vertical-align: top;
+    overflow:scroll;
+}
+
+#colors p{
+    margin:15px;
+    color:white;
+    vertical-align:middle;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;    
+    font-size:14px;
+}
+
+#colors #post-text{
+    color:black;
+}
+
+.colorSquare{
+    width:100%;
+    display:inline-block;
+}
+
+.colorSquare:hover{
+    opacity:0.5;
+}
+
+.danesRed{
+    background-color: #be1941;
+}
+
+.danesBlaa{
+    background-color: #4a7abd;
+}
+
+.begynderdanskGroen{
+    background-color: #0a9e4a;
+}
+
+.ABCRed{
+    background-color: #d71345;
+}
+
+.verdana{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+.lato{
+    font-family: 'Lato', sans-serif;
+    font-size:16px;
+}
+
+.wave{
+    font-family: TheWave, Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;   
+}
+
+.waveThin{
+    font-family: TheWaveThin, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    max-width:40%;
+    max-height: 150px;
+    margin:15px;
+}
+
+#logos{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:14px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .content-holder{
+        display:block;
+        max-width: 100%;
+    }
+  }
