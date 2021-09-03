@@ -54,6 +54,7 @@ h2{
     max-width:33%;
     vertical-align: top;
     overflow:scroll;
+    vertical-align: top;
 }
 
 #colors p{
@@ -69,6 +70,7 @@ h2{
 }
 
 .colorSquare{
+    cursor:pointer;
     width:100%;
     display:inline-block;
 }
