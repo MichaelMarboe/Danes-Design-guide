@@ -1,17 +1,16 @@
 @font-face {
     font-family: TheWave;
-    src: url(/fonts/Wave-Regular.otf);
+    src: url(fonts/Wave-Regular.otf);
 }
 
 @font-face {
-    font-family: TheWave;
-    src: url(/fonts/Wave-Bold.otf);
-    font-weight: bold;
+    font-family: TheWaveBold;
+    src: url(fonts/Wave-Bold.otf);
 }
 
 @font-face {
     font-family: TheWaveThin;
-    src: url(/fonts/Wave-Thin.otf);
+    src: url(fonts/Wave-Thin.otf)
 }
 
 a{
@@ -53,7 +52,7 @@ h2{
     display:inline-block;
     max-width:33%;
     vertical-align: top;
-    overflow:scroll;
+    overflow:auto;
     vertical-align: top;
 }
 
@@ -107,6 +106,11 @@ h2{
 
 .wave{
     font-family: TheWave, Verdana, Geneva, Tahoma, sans-serif;
+    font-size:15px;   
+}
+
+.waveBold{
+    font-family: TheWaveBold, Verdana, Geneva, Tahoma, sans-serif;
     font-size:15px;   
 }
 
