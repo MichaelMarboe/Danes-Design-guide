@@ -1,5 +1,9 @@
 //NOTE: set to DEFER
 
+$(document).ready(function(){
+    $("body").fadeIn();
+});
+
 function copyText(hexCode) {
   navigator.clipboard.writeText(hexCode);
 };
