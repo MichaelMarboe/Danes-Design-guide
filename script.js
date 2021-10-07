@@ -1,3 +1,5 @@
+//NOTE: set to DEFER
+
 function copyText(hexCode) {
   navigator.clipboard.writeText(hexCode);
 };
@@ -9,6 +11,8 @@ function copyText(hexCode) {
 */
 
 const colorSquares = document.getElementsByClassName("colorSquare");
+const revealers = document.getElementsByClassName("revealer");
+
 for (let i = 0; i < colorSquares.length; i++) {
   colorSquares[i].addEventListener("mouseup", function () {
     colorSquares[i].style.opacity = "1";
@@ -24,4 +28,21 @@ for (let i = 0; i < colorSquares.length; i++) {
   });
 }
 
+for (let i = 0; i < revealers .length; i++) {
+  revealers[i].addEventListener("mouseup", function () {
+    revealers[i].style.opacity = "1";
+  });
+  revealers[i].addEventListener("mousedown", function () {
+    revealers[i].style.opacity = "0.5";
+  });
+  revealers[i].addEventListener("mouseenter", function () {
+    revealers[i].style.opacity = "0.8";
+  });
+  revealers[i].addEventListener("mouseleave", function () {
+    revealers[i].style.opacity = "1";
+  });
+}
 
+const revealContent = (category, speed) => {
+  $(category).slideToggle(speed);
+}
