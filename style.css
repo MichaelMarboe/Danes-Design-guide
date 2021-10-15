@@ -173,6 +173,10 @@ h2{
         border-style: none;
     }
 
+    .content-holder{
+        width:100%
+    }
+
     #colors hr{
         height:2px;
         margin-left:15px;
@@ -187,13 +191,14 @@ h2{
         width:100%;
         position:static;
         display:block;
+        max-width: 540px;
     }   
-    .content-holder{
-        width:100%;
+
+    .main-wrapper{
+        margin-left:11%;
+        margin-right:11%;
     }
-    .holder-content{
-        width:100%;
-    }
+    
 }
 
 /*
@@ -223,7 +228,7 @@ Der kan givetvis aldrig være 4 kolonner i det her design.
     }
 }
 
-@media only screen and (min-width:1400px){
+@media only screen and (min-width:1200px){
     .col{
         position:static;
         text-align: left;
