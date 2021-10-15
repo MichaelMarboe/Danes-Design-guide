@@ -1,4 +1,4 @@
-//NOTE: set to DEFER
+//DEFER
 
 $(document).ready(function(){
     $("body").fadeIn();

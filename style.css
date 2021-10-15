@@ -72,28 +72,24 @@ h2{
     cursor:pointer;
 }
 
-.col1{
+.col{
     position:absolute;
-    left:1%;
     display:inline-block;
-    width:32%;
+    widtH:32%;
     vertical-align: top;
+    max-width: 580px;
+}
+
+.col1{
+    left:1%;
 }
 
 .col2{
-    position:absolute;
     left:34%;
-    display:inline-block;
-    width:32%;
-    vertical-align: top;
 }
 
 .col3{
-    position:absolute;
-    left:67%;
-    display:inline-block;
     width:32%;
-    vertical-align: top;
 }
 
 .content-holder{
@@ -187,21 +183,11 @@ h2{
         display:none;
     }
 
-    .col1{
+    .col{
         width:100%;
         position:static;
         display:block;
     }   
-    .col2{
-        width:100%;
-        position:static;
-        display:block;
-    }
-    .col3{
-        width:100%;
-        position:static;
-        display:block;
-    }
     .content-holder{
         width:100%;
     }
@@ -220,9 +206,8 @@ Kolonne 3 er nødt til at være block og ikke inline så den rykker rigtigt ned 
 Der kan givetvis aldrig være 4 kolonner i det her design.
 */
 
-@media only screen and (min-width: 700px) and (max-width: 1400px){
+@media only screen and (min-width: 700px) and (max-width: 1200px){
     .col1{
-        display:inline-block;
         width:49.5%;
         position:static;
     }
@@ -235,5 +220,15 @@ Der kan givetvis aldrig være 4 kolonner i det her design.
         display:block;
         width:49.5%;
         positioN:static;
+    }
+}
+
+@media only screen and (min-width:1400px){
+    .col{
+        position:static;
+        text-align: left;
+    }
+    .main-wrapper{
+        text-align: center;
     }
 }
