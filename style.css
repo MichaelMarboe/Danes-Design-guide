@@ -218,7 +218,7 @@ Der kan givetvis aldrig være 4 kolonner i det her design.
     .col1{
         width:49.5%;
         position:static;
-    }
+    }v
     .col2{
         position:absolute;
         left:50%;
